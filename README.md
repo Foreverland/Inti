@@ -2,9 +2,9 @@
 
 [![Work in progress](https://img.shields.io/badge/status-work%20in%20progress-orange.svg)](https://github.com/NSElvis/Inti)
 
->**Inti** is the ancient Incan God, the [single source of all truth](http://en.wikipedia.org/wiki/Single_Source_of_Truth).
+>**Inti**: Ancient Incan God, the [single source of all truth](http://en.wikipedia.org/wiki/Single_Source_of_Truth).
 
-Inti is the first networking library with persistency in it's core, strongly inspired on frameworks that encourage convention over configuration, Inti aims to provide the simplest, fastest and most reliable networking library.
+Inti is the first networking library with persistency in it's core, strongly inspired on [frameworks](http://rubyonrails.org/) that encourage [convention over configuration](http://en.wikipedia.org/wiki/Convention_over_configuration), Inti aims to provide the simplest, fastest and most reliable networking library.
 
 Inti aims to provide full support for:
 
