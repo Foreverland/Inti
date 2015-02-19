@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = "Inti"
-s.version          = "0.1"
+s.version          = "0.0.1"
 s.summary          = "Single source of truth"
 s.homepage         = "https://github.com/NSElvis/Inti"
 s.license          = 'MIT'
