@@ -1,4 +1,4 @@
-# Inti
+![Inti](https://github.com/NSElvis/Inti/blob/master/Images/cover.png)
 
 [![CI Status](http://img.shields.io/travis/NSElvis/Inti.svg?style=flat)](https://travis-ci.org/NSElvis/Inti)
 [![Version](https://img.shields.io/cocoapods/v/Inti.svg?style=flat)](http://cocoadocs.org/docsets/Inti)
