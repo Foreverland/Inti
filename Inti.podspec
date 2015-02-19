@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 s.name             = "Inti"
 s.version          = "0.0.1"
-s.summary          = "Single source of truth"
+s.summary          = "Inti is the first networking library with persistency in it's core"
 s.homepage         = "https://github.com/NSElvis/Inti"
 s.license          = 'MIT'
 s.author           = { "Elvis Nuñez" => "hello@nselvis.com" }
