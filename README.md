@@ -10,7 +10,7 @@ Inti provides full support for:
 
 * Core Data Entity—driven networking methods, we use entities and their relationships to figure out your endpoints (routes)
 * Full offline support, if your request is made offline, it will get replayed as soon as the device gets access to internet
-* Additional layer of security and concurrency over Core Data, POSTs, PUTs and PATCHs couldn't be more secure
+* Additional layer of security and concurrency over Core Data, `POST`s, `PUT`s and `PATCH`s couldn't be more secure
 
 ## Installation
 
