@@ -8,7 +8,7 @@ Inti is the first networking library with persistency in it's core, strongly ins
 
 Inti provides full support for:
 
-* [Core Data Model](https://developer.apple.com/library/ios/recipes/xcode_help-core_data_modeling_tool/Articles/about_cd_modeling_tool.html#//apple_ref/doc/uid/TP40010379-CH3-SW1) auto-generated networking methods, we use entities and their relationships to figure out your endpoints (routes)
+* Core Data Entity—driven networking methods, we use entities and their relationships to figure out your endpoints (routes)
 * Full offline support, if your request is made offline, it will get replayed as soon as the device gets access to internet
 * Additional layer of security and concurrency over Core Data, POSTs, PUTs and PATCHs couldn't be more secure
 
@@ -25,4 +25,4 @@ Elvis Nuñez, hello@nselvis.com
 
 ## License
 
-**Inti** is available under the MIT license. See the LICENSE file for more info.
+**Inti** is available under the MIT license. See the [LICENSE file](https://github.com/NSElvis/Inti/blob/master/LICENSE.md) for more info.
