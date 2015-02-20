@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1467D5DE1A97C7430049102E /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1467D5DC1A97C7430049102E /* Model.xcdatamodeld */; };
+		1467D5EE1A97DC730049102E /* Article.m in Sources */ = {isa = PBXBuildFile; fileRef = 1467D5E91A97DC730049102E /* Article.m */; };
+		1467D5EF1A97DC730049102E /* Author.m in Sources */ = {isa = PBXBuildFile; fileRef = 1467D5EB1A97DC730049102E /* Author.m */; };
+		1467D5F01A97DC730049102E /* Tag.m in Sources */ = {isa = PBXBuildFile; fileRef = 1467D5ED1A97DC730049102E /* Tag.m */; };
 		14AAFE5A1A968DC5008DE7E5 /* Inti.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AAFE591A968DC5008DE7E5 /* Inti.m */; };
 		14B564731A06D87B00342CDA /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 14B564721A06D87B00342CDA /* .travis.yml */; };
 		14C4182E1A01919C00636FD6 /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C4182D1A01919C00636FD6 /* Tests.m */; };
@@ -15,6 +19,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1467D5DD1A97C7430049102E /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		1467D5E81A97DC730049102E /* Article.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Article.h; sourceTree = "<group>"; };
+		1467D5E91A97DC730049102E /* Article.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Article.m; sourceTree = "<group>"; };
+		1467D5EA1A97DC730049102E /* Author.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Author.h; sourceTree = "<group>"; };
+		1467D5EB1A97DC730049102E /* Author.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Author.m; sourceTree = "<group>"; };
+		1467D5EC1A97DC730049102E /* Tag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tag.h; sourceTree = "<group>"; };
+		1467D5ED1A97DC730049102E /* Tag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tag.m; sourceTree = "<group>"; };
 		14AAFE581A968DC5008DE7E5 /* Inti.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Inti.h; sourceTree = "<group>"; };
 		14AAFE591A968DC5008DE7E5 /* Inti.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Inti.m; sourceTree = "<group>"; };
 		14B564721A06D87B00342CDA /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .travis.yml; path = ../.travis.yml; sourceTree = "<group>"; };
@@ -38,11 +49,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1467D5DB1A97C72B0049102E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1467D5E81A97DC730049102E /* Article.h */,
+				1467D5E91A97DC730049102E /* Article.m */,
+				1467D5EA1A97DC730049102E /* Author.h */,
+				1467D5EB1A97DC730049102E /* Author.m */,
+				1467D5EC1A97DC730049102E /* Tag.h */,
+				1467D5ED1A97DC730049102E /* Tag.m */,
+				1467D5DC1A97C7430049102E /* Model.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		14C418111A01919C00636FD6 = {
 			isa = PBXGroup;
 			children = (
 				14C418401A019A1B00636FD6 /* Metadata */,
 				14C418371A01974300636FD6 /* Source */,
+				1467D5DB1A97C72B0049102E /* Models */,
 				14C4182A1A01919C00636FD6 /* Tests */,
 				14C4181C1A01919C00636FD6 /* Products */,
 			);
@@ -164,8 +190,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1467D5F01A97DC730049102E /* Tag.m in Sources */,
+				1467D5EE1A97DC730049102E /* Article.m in Sources */,
 				14C4182E1A01919C00636FD6 /* Tests.m in Sources */,
 				14AAFE5A1A968DC5008DE7E5 /* Inti.m in Sources */,
+				1467D5DE1A97C7430049102E /* Model.xcdatamodeld in Sources */,
+				1467D5EF1A97DC730049102E /* Author.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +338,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1467D5DC1A97C7430049102E /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1467D5DD1A97C7430049102E /* Model.xcdatamodel */,
+			);
+			currentVersion = 1467D5DD1A97C7430049102E /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 14C418121A01919C00636FD6 /* Project object */;
 }
