@@ -2,7 +2,7 @@
 
 @implementation Inti
 
-- (void)fetchItemsFromEntity:(NSString *)entityName completion:(void (^)(NSError *error))completion
+- (void)fetchObjectsFromEntity:(NSString *)entityName completion:(void (^)(NSError *error))completion
 {
     if (completion) {
         completion(nil);
