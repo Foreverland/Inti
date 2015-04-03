@@ -21,7 +21,7 @@ it, simply add the following line to your Podfile:
 
 ## Author
 
-Elvis Nuñez, hello@nselvis.com
+Elvis Nuñez, [elvisnunez@me.com](mailto:elvisnunez@me.com)
 
 ## License
 
