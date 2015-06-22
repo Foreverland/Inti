@@ -20,11 +20,3 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'Inti'
 ```
-
-## Author
-
-Elvis Nuñez, [elvisnunez@me.com](mailto:elvisnunez@me.com)
-
-## License
-
-**Inti** is available under the MIT license. See the [LICENSE file](https://github.com/NSElvis/Inti/blob/master/LICENSE.md) for more info.
